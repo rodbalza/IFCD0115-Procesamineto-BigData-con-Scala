@@ -2398,7 +2398,7 @@ def calcularTamanoBytes(path: String): Long = {
 > En un flujo real no usamos Dataset porque sí. Usamos Dataset cuando necesitamos lógica de negocio tipada y segura con Scala. Después volvemos a DataFrame porque Spark SQL, las escrituras particionadas y las consultas analíticas trabajan de forma más natural sobre DataFrames y tablas.
 > 
 
-# Caso de estudio 2 - Benchmark de Formatos: Airline Delay & Cancellation Data
+# Caso practico 2 - Benchmark de Formatos: Airline Delay & Cancellation Data
 
 ---
 
@@ -3111,7 +3111,7 @@ Responde en el notebook (como celdas Markdown) antes de entregar:
 1. ¿Por qué es mejor definir el schema manualmente en lugar de usar `inferSchema = true` con ficheros de 600 MB?
 2. Si el Ministerio de Transporte añade los datos de 2019, ¿qué modo de escritura usarías para incorporarlos al Parquet particionado sin borrar los años anteriores?
 
-# Case de estudio 3 -  RapidX: Pipeline JSON → Parquet → BI
+# Case practico 3 -  RapidX: Pipeline JSON → Parquet → BI
 
 ---
 
